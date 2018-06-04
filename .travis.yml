@@ -1,3 +1,7 @@
 language: cpp
 
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libprotobuf-dev protobuf-compiler libboost-all-dev
+
 script: ./compile_proto.sh
