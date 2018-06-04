@@ -1,6 +1,8 @@
 GPS
 ======
 
+[![Travis CI Build Status](https://travis-ci.org/ICRA2017/gps.svg?branch=reproducible)](https://travis-ci.org/ICRA2017/gps)
+
 This code is a reimplementation of the guided policy search algorithm and LQG-based trajectory optimization, meant to help others understand, reuse, and build upon existing work.
 
 For full documentation, see [rll.berkeley.edu/gps](http://rll.berkeley.edu/gps).
