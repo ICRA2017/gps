@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install --upgrade pip
 
-RUN pip install protobuf numpy matplotlib scipy
+RUN pip install --ignore-installed protobuf numpy matplotlib scipy
 
 RUN git clone -b reproducible https://github.com/ICRA2017/gps.git
 
