@@ -17,7 +17,7 @@ $ docker run -it --rm -e DISPLAY=<host_ip_address>:0.0 -v /tmp/.X11-unix:/tmp/.X
 ```
 #### Box2D example: point mass
 ```
-root@706764b6c478:/gps# cd gps
+root@706764b6c478:/# cd gps
 root@706764b6c478:/gps# python python/gps/gps_main.py box2d_pointmass_example
 ...
 DEBUG:Generating 12 clusters for dynamics GMM.
@@ -32,7 +32,6 @@ DEBUG:KL: 51.830232 / 47.670362, converged iteration 3
 ```
 root@5bc59210b044:/# cd gps
 root@5bc59210b044:/gps# python python/gps/gps_main.py box2d_arm_example
-DEBUG:No ROS enabled: No module named rospkg
 ...
 DEBUG:Generating 12 clusters for dynamics GMM.
 DEBUG:Fitting GMM with 12 clusters on 495 points
