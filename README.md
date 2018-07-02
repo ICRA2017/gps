@@ -15,7 +15,7 @@ An X-server must be running in the host system, and permission for connections m
 For more secure configurations, see [this ROS tutorial](http://wiki.ros.org/docker/Tutorials/GUI#Using_X_server).
 
 ```
-$ docker run -it --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" \
+$ docker run -it --rm --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" \
 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" icra2017/gps
 ```
 #### Box2D example: point mass
